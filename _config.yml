@@ -1,9 +1,48 @@
-title: Dr. Ayman Elgharabawy
-logo: Ayman_ANU_small.jpg
-description: Ayman postdoctoral fellow at Biological Data Science Institute (BDSI) and a visitor Scientist at SCIRO F&AG. dep.   Ayman received his  Ph.D. (2022) from the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS). Australia. Ayman Finished his Bachelor's and Master's degree in the Biomedical Engineering Dep. Faculty of Engineering, Cairo University, Egypt. 
+#
+# The Site Configuration
+#
+
+# if you run it locally:
+# theme: jekyll-theme-fica
+
+#  if you using GitHub-Pages:
+remote_theme: Involts/jekyll-theme-fica
+
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: /jekyll-theme-fica
+
+title: D
+
+description: Dr. Ayman Gh. is a postdoctoral fellow at Biological Data Science Institute (BDSI) and a visitor Scientist at SCIRO F&AG. dep.   Ayman received his  Ph.D. (2022) from the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS). Australia. Ayman Finished his Bachelor's and Master's degree in the Biomedical Engineering Dep. Faculty of Engineering, Cairo University, Egypt. 
 Ayman has multiple disciplinary, academic, and professional areas.
  His research focuses on implementing Machine learning algorithms for  Biosignal, Bioinformatics, and Preference Learning using Neural networks to solve different bioinformatics, image processing, and Brain-Computer Interfaces (BCI) problems. 
- Ayman has 14+ years of experience as a programmer, software designer, and technical and solution architect in different companies (HP, CGI-Logica, Vodafone).
-show_downloads: true
-google_analytics:
+ Ayman has 14+ years of experience as a programmer, software designer, and technical and solution architect in different companies (HP, CGI-Logica, Vodafone)..
+
+show_descriptions: true # set to true to show descriptions
+
+show-footer-copyright: true # set to true to show footer copyright
+
+permalink: /Posts/:title/
+date_format: "%b %-d, %Y"
+
+header:
+
+
+    external_link_2: false # if false, it adds the baseurl of the site
+    header_name_2: Post
+    header_link_2: /post/
+    
+    external_link_3: false # if false, it adds the baseurl of the site
+    header_name_3: About
+    header_link_3: /About/
+
+google_analytics: 
+  enabled: true # if false, it disables Google Analytics
+  id:           # fill in your Google Analytics ID    
+
+
+
+url: 'https://involts.github.io/'  
+
 theme: jekyll-theme-minimal
