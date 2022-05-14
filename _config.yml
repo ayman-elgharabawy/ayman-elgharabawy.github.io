@@ -1,48 +1,40 @@
-#
-# The Site Configuration
-#
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Sample Jekyll Blog
 
-# if you run it locally:
-# theme: jekyll-theme-fica
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: This is a sample Jekyll Blog.
 
-#  if you using GitHub-Pages:
-remote_theme: Involts/jekyll-theme-fica
+# Your name, as you want it to appear underneath each post and in the footer
+author: Your Name
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
-baseurl: /jekyll-theme-fica
+# Your email if you want it to be linked on the contact page
+author_email: you@example.com
 
-title: D
+# The directory for category index pages. Change it to something else if
+# for example you want links like /categories/category1 instead of /category1
+category_dir: /
 
-description: Dr. Ayman Gh. is a postdoctoral fellow at Biological Data Science Institute (BDSI) and a visitor Scientist at SCIRO F&AG. dep.   Ayman received his  Ph.D. (2022) from the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS). Australia. Ayman Finished his Bachelor's and Master's degree in the Biomedical Engineering Dep. Faculty of Engineering, Cairo University, Egypt. 
-Ayman has multiple disciplinary, academic, and professional areas.
- His research focuses on implementing Machine learning algorithms for  Biosignal, Bioinformatics, and Preference Learning using Neural networks to solve different bioinformatics, image processing, and Brain-Computer Interfaces (BCI) problems. 
- Ayman has 14+ years of experience as a programmer, software designer, and technical and solution architect in different companies (HP, CGI-Logica, Vodafone)..
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+#baseurl: /path/to/blog 
+baseurl: 
 
-show_descriptions: true # set to true to show descriptions
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
+url: http://yourdomain.com/
 
-show-footer-copyright: true # set to true to show footer copyright
+#### Under the Hood Stuff #####
 
-permalink: /Posts/:title/
-date_format: "%b %-d, %Y"
+# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
+# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
+# If you don't have it install it via gem install rdiscount
+markdown: rdiscount
 
-header:
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: pretty
 
+# How many articles do you wish to appear on the front page:
+paginate: 3
 
-    external_link_2: false # if false, it adds the baseurl of the site
-    header_name_2: Post
-    header_link_2: /post/
-    
-    external_link_3: false # if false, it adds the baseurl of the site
-    header_name_3: About
-    header_link_3: /About/
-
-google_analytics: 
-  enabled: true # if false, it disables Google Analytics
-  id:           # fill in your Google Analytics ID    
-
-
-
-url: 'https://ayman-elgharabawy.github.io/'  
-
-theme: jekyll-theme-minimal
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
