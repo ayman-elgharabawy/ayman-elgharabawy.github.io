@@ -1,14 +1,17 @@
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: Sample Jekyll Blog
+name: Dr. Ayman ELgharabawy Blog
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: This is a sample Jekyll Blog.
+description: Dr. Ayman Gh. is a postdoctoral fellow at Biological Data Science Institute (BDSI) and a visitor Scientist at SCIRO F&AG. dep.   Ayman received his  Ph.D. (2022) from the School of Computer Science, Faculty of Engineering and Information Technology, University of Technology Sydney (UTS). Australia. Ayman Finished his Bachelor's and Master's degree in the Biomedical Engineering Dep. Faculty of Engineering, Cairo University, Egypt.
+Ayman has multiple disciplinary, academic, and professional areas.
+ His research focuses on implementing Machine learning algorithms for  Biosignal, Bioinformatics, and Preference Learning using Neural networks to solve different bioinformatics, image processing, and Brain-Computer Interfaces (BCI) problems.
+ Ayman has 14+ years of experience as a programmer, software designer, and technical and solution architect in different companies (HP, CGI-Logica, Vodafone)..
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Your Name
+author: Ayman Elgharabawy
 
 # Your email if you want it to be linked on the contact page
-author_email: you@example.com
+author_email: aaaeg@hotmail.com
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
@@ -21,7 +24,7 @@ category_dir: /
 baseurl: 
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://yourdomain.com/
+url: https://ayman-elgharabawy.github.io/
 
 #### Under the Hood Stuff #####
 
