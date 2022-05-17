@@ -189,21 +189,13 @@
                         if (sponsored) {
                             const sponsorEmoji = document.createElement("a");
                             const sponsorEmojiNode = document.createTextNode(" ❤️");
-                            sponsorEmoji.href = "https://github.com/sponsors/Metroxe";
+                            sponsorEmoji.href = "https://github.com/ayman-elgharabawy";
                             sponsorEmoji.title = "Sponsored Submission";
                             sponsorEmoji.appendChild(sponsorEmojiNode);
                             authorSubtitle.appendChild(sponsorEmoji);
                         }
 
-                        // add an owner tag for myself
-                        if (author.includes("Christopher Powroznik")) {
-                            const ownerEmoji = document.createElement("a");
-                            const ownerEmojiNode = document.createTextNode(" 👑️");
-                            ownerEmoji.href = "https://github.com/Metroxe";
-                            ownerEmoji.title = "Owner";
-                            ownerEmoji.appendChild(ownerEmojiNode);
-                            authorSubtitle.appendChild(ownerEmoji);
-                        }
+                  
 
                         body.appendChild(authorSubtitle);
                     }
