@@ -16,7 +16,7 @@
 const entries = [
 	{
 		title: "BioInformatics",
-		filename: "dancing_man.html",
+		filename: "entry1.html",
 		description: "My real challenge, in the same direction of my Career ",
 		author: "Ayman ELgharabawy)",
 		github: "Ayman"
